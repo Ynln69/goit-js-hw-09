@@ -16,3 +16,16 @@ img {
   display: block;
   max-width: 100%;
 }
+.thumb {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 50%;
+  right: 42%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  font-weight: 600;
+  padding: 10px;
+  text-transform: uppercase;
+}
