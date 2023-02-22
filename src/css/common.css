@@ -29,3 +29,22 @@ img {
   padding: 10px;
   text-transform: uppercase;
 }
+
+.timer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 15px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  align-items: center;
+}
+.value {
+  font-size: 40px;
+}
+.label {
+  text-transform: uppercase;
+}

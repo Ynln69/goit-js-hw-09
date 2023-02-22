@@ -3,7 +3,7 @@ const refs = {
   stopBtn: document.querySelector('[data-stop]'),
 };
 
-let intervalId;
+let intervalId = null;
 
 refs.startBtn.addEventListener('click', () => {
   refs.startBtn.disabled = true;
