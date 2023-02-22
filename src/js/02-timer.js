@@ -25,10 +25,11 @@ flatpickr(refs.datePicker, {
     if (selectedDate.getTime() < new Date().getTime()) {
       Notiflix.Report.failure('Please choose a date in the future');
       refs.startBtn.disabled = true;
-    } else {
-      endDate = selectedDate;
-      refs.startBtn.disabled = false;
+      return;
     }
+    Notiflix.Report.success(`You chose valide date, so click on start`);
+    endDate = selectedDate;
+    refs.startBtn.disabled = false;
   },
 });
 
