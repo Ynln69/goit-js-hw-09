@@ -27,7 +27,7 @@ flatpickr(refs.datePicker, {
       refs.startBtn.disabled = true;
       return;
     }
-    Notiflix.Report.success(`You chose valide date, so click on start`);
+    Notiflix.Report.success(`It's valide date, click on "Start"`);
     endDate = selectedDate;
     refs.startBtn.disabled = false;
   },
