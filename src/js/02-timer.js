@@ -27,7 +27,7 @@ flatpickr(refs.datePicker, {
       refs.startBtn.disabled = true;
       return;
     }
-    Notiflix.Report.success(`It's valide date, click on "Start"`);
+    Notiflix.Notify.success(`It's valide date, click on "Start"`);
     endDate = selectedDate;
     refs.startBtn.disabled = false;
   },
@@ -43,7 +43,7 @@ function onclick() {
       clearInterval(timer);
       refs.daysEl.textContent = '00';
       refs.hoursEl.textContent = '00';
-      refs.refs.minutesEl.textContent = '00';
+      refs.minutesEl.textContent = '00';
       refs.secondsEl.textContent = '00';
       return;
     }
